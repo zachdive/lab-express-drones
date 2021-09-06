@@ -1,8 +1,8 @@
-<h2>Available drones</h2>
+<h2>Available drones 🛸 </h2>
 
 <ul>
 {{#each drones}}
-<li><a href="/drones/{{id}}/edit"> {{name}}</a> Edit</li>
+<li><a href="/drones/{{id}}/edit"> {{name}}</a> Update</li>
 <p> Propellers: {{propellers}}</p>
 <p>maxSpeed:  {{maxSpeed}}</p>
      <form action="/drones/{{id}}/delete" method="POST">
